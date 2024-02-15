@@ -728,3 +728,273 @@ footer {
 footer p.copyright {
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
+
+/* iPhone14サイズのレスポンシブ対応 */
+@media only screen and (max-width: 500px) {
+  /* header */
+  header {
+    height: 60px;
+  }
+  header a.logo img {
+    height: 70%;
+  }
+  header nav {
+    padding-inline: 0.5rem;
+  }
+  header nav a.header_toc {
+    padding-inline: 1em;
+  }
+  header nav a.header_toc::after {
+    width: 70%;
+  }
+  header nav a.header_toc:hover::after {
+    height: 110%;
+  }
+  /* main section#top */
+  main section#top .top_bg {
+    background-size: cover;
+  }
+  main section#top p.top_txt {
+    font-size: 1.2rem;
+    left: 2rem;
+  }
+  main section#top .scrolldown {
+    width: 50px;
+    padding-top: 0.5rem;
+  }
+  main section#top .scrolldown p {
+    right: 0.1rem;
+    font-size: 0.8rem;
+  }
+  main section#top .scrolldown::after {
+    width: 9px;
+  }
+  /* main section#about */
+  main section#about p.secttl {
+    font-size: 1.8rem;
+  }
+  main section#about .table img {
+    width: 40%;
+  }
+  /* main section#work */
+  main section#work .work p.secttl {
+    font-size: 1.8rem;
+  }
+  main section#work .work p.description {
+    font-size: 1rem;
+  }
+  main section#work .work .kind div {
+    width: 22%;
+  }
+  main section#work .work .kind div svg {
+    width: 25%;
+  }
+  main section#work .work .kind div p {
+    font-size: 1rem;
+  }
+  main section#work .scene p.secttl {
+    font-size: 1.8rem;
+  }
+  main section#work .scene .list div {
+    width: calc(33.33% - 1px);
+  }
+  main section#work .scene .list div img {
+    aspect-ratio: 1/1;
+  }
+  /* main section#recruit */
+  main section#recruit p.secttl {
+    font-size: 1.8rem;
+  }
+  main section#recruit p.description {
+    font-size: 1rem;
+  }
+  main section#recruit table {
+    width: 90%;
+  }
+  main section#recruit table tr td {
+    padding: 0.5em;
+  }
+  /* main section#access */
+  main section#access .position p.ttl {
+    font-size: 1.5rem;
+    top: 5rem;
+  }
+  main section#access .position p.location {
+    top: 9rem;
+    font-size: 1rem;
+  }
+  main section#access .position p.location span {
+    font-size: 0.9rem;
+  }
+  main section#access .position p.location span.tel span, 
+  main section#access .position p.location span.tel + span.fax span {
+    font-size: 0.6em;
+  }
+  main section#access .position p.location span.station {
+    font-size: 0.75em;
+  }
+  main section#access .position a.btn {
+    bottom: 2rem;
+  }
+  /* main section#contact */
+  main section#contact p.secttl {
+    font-size: 1.8rem;
+  }
+  main section#contact p.description {
+    font-size: 1rem;
+  }
+  main section#contact form {
+    width: 90%;
+  }
+  main section#contact form .text,
+  main section#contact form .content {
+    width: 100%;
+  }
+  main section#contact form .text input {
+    height: 25px;
+  }
+  main section#contact form .content label {
+    gap: 3px;
+  }
+  main section#contact form .concon textarea {
+    height: 150px;
+  }
+  main section#contact form input[type=submit] {
+    font-size: 1rem;
+  }
+}
+
+/* iPadサイズのレスポンシブ対応 */
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+  /* header */
+  header {
+    height: 70px;
+  }
+  header a.logo img {
+    height: 80%;
+  }
+  header nav {
+    padding-inline: 1rem;
+  }
+  header nav a.header_toc {
+    padding-inline: 1.5em;
+  }
+  header nav a.header_toc::after {
+    width: 100%;
+  }
+  header nav a.header_toc:hover::after {
+    height: 100%;
+  }
+  /* main section#top */
+  main section#top .top_bg {
+    background-size: 100%;
+  }
+  main section#top p.top_txt {
+    font-size: 1.5rem;
+    left: 5rem;
+  }
+  main section#top .scrolldown {
+    width: 60px;
+    padding-top: 1rem;
+  }
+  main section#top .scrolldown p {
+    right: 0.2rem;
+    font-size: 1rem;
+  }
+  main section#top .scrolldown::after {
+    width: 11px;
+  }
+  /* main section#about */
+  main section#about p.secttl {
+    font-size: 2.5rem;
+  }
+  main section#about .table img {
+    width: 30%;
+  }
+  /* main section#work */
+  main section#work .work p.secttl {
+    font-size: 2.5rem;
+  }
+  main section#work .work p.description {
+    font-size: 1.2rem;
+  }
+  main section#work .work .kind div {
+    width: 25%;
+  }
+  main section#work .work .kind div svg {
+    width: 30%;
+  }
+  main section#work .work .kind div p {
+    font-size: 1.1rem;
+  }
+  main section#work .scene p.secttl {
+    font-size: 2.5rem;
+  }
+  main section#work .scene .list div {
+    width: calc(25% - 1.5px);
+  }
+  main section#work .scene .list div img {
+    aspect-ratio: 1/1;
+  }
+  /* main section#recruit */
+  main section#recruit p.secttl {
+    font-size: 2.5rem;
+  }
+  main section#recruit p.description {
+    font-size: 1.1rem;
+  }
+  main section#recruit table {
+    width: 70%;
+  }
+  main section#recruit table tr td {
+    padding: 0.5em 1em;
+  }
+  /* main section#access */
+  main section#access .position p.ttl {
+    font-size: 1.7rem;
+    top: 7rem;
+  }
+  main section#access .position p.location {
+    top: 12rem;
+    font-size: 1.2rem;
+  }
+  main section#access .position p.location span {
+    font-size: 0.85em;
+  }
+  main section#access .position p.location span.tel span, 
+  main section#access .position p.location span.tel + span.fax span {
+    font-size: 0.7em;
+  }
+  main section#access .position p.location span.station {
+    font-size: 0.85em;
+  }
+  main section#access .position a.btn {
+    bottom: 3rem;
+  }
+  /* main section#contact */
+  main section#contact p.secttl {
+    font-size: 2.5rem;
+  }
+  main section#contact p.description {
+    font-size: 1.1rem;
+  }
+  main section#contact form {
+    width: 70%;
+  }
+  main section#contact form .text,
+  main section#contact form .content {
+    width: 47.5%;
+  }
+  main section#contact form .text input {
+    height: 30px;
+  }
+  main section#contact form .content label {
+    gap: 5px;
+  }
+  main section#contact form .concon textarea {
+    height: 200px;
+  }
+  main section#contact form input[type=submit] {
+    font-size: 1.2rem;
+  }
+}
